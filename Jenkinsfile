@@ -23,10 +23,10 @@ pipeline{
         ehco 'Application is deployed at https://localhost:8082'
       }
     }
+  }
     post {
       always{
         echo 'pipeline completed.'
-      }
     }
   }
 }
